@@ -28,15 +28,6 @@ const ArticlesList = ({ usersList }) => {
           </div>
         </div>
       </div>
-      <div className="second">
-        {/* <Pagination
-          itemsPerPage={itemsPerPage}
-          startIndex={startIndex}
-          endIndex={endIndex}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        /> */}
-      </div>
     </div>
 
   );

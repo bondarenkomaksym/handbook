@@ -23,7 +23,7 @@ body {
 
 ::-webkit-scrollbar
 {
-	width: 12px;
+	width: 6px;
 	background-color:transparent;
 }
 
@@ -86,13 +86,6 @@ body {
   background-color: rgb(248, 248, 248);
   border-bottom: 1px solid rgba(223, 223, 223, 0.712);
   
-  
-  &__number{
-    width: 5%;
-    display: grid;
-    font-size: 12px;
-    place-items: center;
-  }
   &__name-firstletter{
     display: grid;
     place-items: center;
@@ -127,15 +120,6 @@ body {
   &__pub {
       font-size: 14px;
   }
-  &__medal {
-    display: grid;
-    place-items: center;
-    width: 5%;
-  }
-  &__medal-icon {
-      height: 35px;
-      width: 100%;
-  }
 }
 
 .user:nth-of-type(even){
@@ -168,56 +152,6 @@ body {
   opacity: 0.5;
 }
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &__page{
-    width: 60px;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-  }
-}
-
-.btn {
-  display: grid;
-  place-items: center;
-  height: 32px;
-  color: rgba(255, 255, 255, 0.658);
-  width: 30px;
-  outline: none;
-  border: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-.sort{
-  display: flex;
-  height: 35px;
-  font-size: 14px;
-
-  & button{
-    width: 50%;
-    background-color: #eaecf0;
-    color: rgba(22, 22, 22, 0.849);
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: linear .2s;
-    &:hover {
-      background-color: #d5d8df;
-    }
-  }
-  & button:first-child{
-    border-right: 1px solid rgba(180, 180, 180, 0.712); 
-  }
-  & i{
-    margin-left: 10px;
-  }
-}
 
 @media screen 
   and (min-width: 320px)
